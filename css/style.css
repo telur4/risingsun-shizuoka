@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/**
+ * Base
+ */
+
+* {
+    font-family: "Ropa Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    color: rgb(77, 77, 77);
+}
+
+ul, ol, li, p {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    /* vertical-align: bottom !important; */
+    display: block;
+}
+
+/**
+ * Route
+ */
+body {
+    /* background-image: url("../img/webp/sky1.webp"); */
+}
+
+#header {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.copylight {
+    /* background-color: rgba(71, 255, 251, 0.5); */
+    padding: 16px;
+}
