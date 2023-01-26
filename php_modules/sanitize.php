@@ -1,13 +1,11 @@
 <?php
 
-    function sanitize($data) {
+function sanitize($data) {
+    $clean = array();
 
-        $clean = array();
-
-		foreach( $data as $key => $value ) {
-			$clean[$key] = htmlspecialchars( $value, ENT_QUOTES);
-		}
-
-        return $clean;
-
+    foreach( $data as $key => $value ) {
+        $clean[$key] = htmlspecialchars( $value, ENT_QUOTES);
     }
+
+    return $clean;
+}
