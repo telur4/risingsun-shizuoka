@@ -9,4 +9,5 @@
 - JavaScript(ES6)
 - PHP7
 - Bootstrap
+- jQuery
 - Webp image
