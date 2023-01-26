@@ -24,15 +24,6 @@
 			$error[] = "「メールアドレス」は正しい形式で入力してください。";
 		}
 
-		// Mr. M COFFEEを知ったきっかけのバリデーション
-		// if( empty($data['radio']) ) {
-		// 	$error[] = "「Mr. M COFFEEを知ったきっかけ」は必ず入力してください。";
-
-		// 	// 形式チェック
-		// } elseif( $data['radio'] !== 'answer1' && $data['radio'] !== 'answer2' && $data['radio'] !== 'answer3' ) {
-		// 	$error[] = "「Mr. M COFFEEを知ったきっかけ」は必ず入力してください。";
-		// }
-
 		// お問い合わせ種類のバリデーション
 		if( empty($data['category']) ) {
 			$error[] = "「お問い合わせの種類」は必ず入力してください。";
